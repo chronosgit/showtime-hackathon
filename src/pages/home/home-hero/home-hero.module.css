@@ -1,6 +1,6 @@
 .hero {
-    padding: 10rem 0.5rem;
-    min-height: 80vh;
+    padding: 12rem 0.5rem;
+    min-height: 100vh;
     text-align: center;
 }
 
@@ -13,6 +13,7 @@
 
 .heading_span {
     color: var(--clr-red);
+    font-family: "KeetanoKatana";
     font-weight: 500;
 }
 

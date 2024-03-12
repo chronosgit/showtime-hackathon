@@ -1,0 +1,9 @@
+.heading {
+    margin-bottom: 2rem;
+    font-weight: normal;
+}
+
+.heading_span {
+    color: var(--clr-red);
+    font-weight: 500;
+}
