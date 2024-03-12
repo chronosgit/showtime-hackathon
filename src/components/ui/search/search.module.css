@@ -1,0 +1,10 @@
+.icon {
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+@media screen and (max-width: 45rem) {
+    .icon {
+        display: none;
+    }
+}

@@ -1,0 +1,28 @@
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    color: white;
+    font-family: "NeoSansCyr";
+    font-weight: 500;
+    border-radius: 2rem;
+}   
+
+.btn_register {
+    background: var(--clr-gradient-purple);
+}
+
+.btn_login {
+    background-color: var(--clr-red);
+}
+
+@media screen and (max-width: 45rem) {
+    .btns {
+        display: none;
+    }
+}

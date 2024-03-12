@@ -1,0 +1,17 @@
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon {
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+}
+
+@media screen and (max-width: 45rem) {
+    .btns {
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+.btn {
+    display: none;
+}
+
+.icon {
+    --size: 2rem;
+    max-width: var(--size);
+    max-height: var(--size);
+}
+
+@media screen and (max-width: 45rem) {
+    .btn {
+        display: block;
+    }
+}
