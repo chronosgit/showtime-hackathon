@@ -1,0 +1,38 @@
+@import url("./fonts.css");
+
+html {
+    font-family: "NeoSansCyr", Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --clr-red: #ff3030;
+    --clr-blue: #1777f2;
+    --clr-gray: #d3d3d3;
+    --clr-gradient-purple: linear-gradient(
+        to right, 
+        #8F00FF,
+        #C333B5,
+        #B12256
+    );
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+}
