@@ -3,6 +3,7 @@ import MobileMenu from "../../components/layout/mobile-menu/MobileMenu";
 import useToggle from "../../hooks/useToggle";
 import MobileMenuContext from "../../contexts/MobileMenuContext";
 import styles from "./home.module.css";
+import HomeHero from "./home-hero/HomeHero";
 
 const Home = () => {
 
@@ -19,6 +20,8 @@ const Home = () => {
 
                 <MobileMenu />
             </MobileMenuContext.Provider>
+
+            <HomeHero />
         </div>
     );
 };

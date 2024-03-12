@@ -1,4 +1,8 @@
 .home {
     position: relative;
-    min-height: 100vh;
+
+    background: url("/src/assets/images/home-hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
