@@ -1,7 +1,18 @@
 .page {
+    padding-inline: 2rem;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url("/src/assets/images/auth-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.auth_wrapper {
+    min-width: 16rem;
+    max-width: 35rem;
+    width: 100%;
+    background-color: white;
 }

@@ -1,4 +1,3 @@
-import { useContext } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../ui/logo/Logo";
 import styles from "./header.module.css";

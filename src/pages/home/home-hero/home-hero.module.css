@@ -22,3 +22,25 @@
     font-size: 1.25rem;
     color: var(--clr-gray);
 }
+
+@media screen and (max-width: 38rem) {
+    .heading {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    .slogan {
+        font-size: 1rem;
+    }
+}
+
+.btn {
+    padding: 1.25rem;
+    font-family: "NeoSansCyr";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-radius: 2rem;
+    background-color: var(--clr-red);
+}

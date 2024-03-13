@@ -1,5 +1,5 @@
 .auth {
-    padding: 2rem 7rem;
+    padding: 2rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,14 +13,24 @@
 }
 
 .container {
-    width: 100%;
+    width: 70%;
 }
 
 .container * {
     width: 100%;
 }
 
-.inputs, .btns_social {
+@media screen and (max-width: 30rem) {
+    .container {
+        width: 100%;
+    }
+}
+
+.inputs {
+    margin-bottom: 0.5rem;
+}
+
+.btns_social {
     margin-bottom: 1rem;
 }
 
@@ -29,13 +39,19 @@
 }
 
 .forgot_pwd {
-    align-self: flex-start;
+    margin-bottom: 1rem;
+    text-align: left;
     font-size: 0.8rem;
     font-weight: 100;
 }
 
+.loading_wrapper {
+    margin-block: 1rem;
+}
+
 .btn {
-    padding: 1rem 1.5rem;
+    min-height: 3.5rem;
+    padding-inline: 1.5rem;
     border-radius: 0.5rem;
     color: white;
     font-family: "NeoSansCyr";
@@ -44,6 +60,7 @@
 }
 
 .btn_main {
+    margin-top: 0.5rem;
     background-color: var(--clr-red);
 }
 
@@ -54,9 +71,19 @@
 }
 
 .btn_social {
+    margin-bottom: 1rem;
     display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 0.5rem;
+    text-align: left;
     background-color: var(--clr-blue);
+}
+
+@media screen and (max-width: 38rem) {
+    .btn_social_text {
+        font-size: 0.8rem;
+    }
 }
 
 .social_icon {
@@ -66,10 +93,14 @@
 }
 
 .question {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .proposition {
     color: var(--clr-red);
     font-weight: 500;
+}
+
+.proposition a {
+    text-decoration: none;
 }

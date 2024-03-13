@@ -1,4 +1,4 @@
-import doExist from "/src/utils/doExist.js";
+import allExist from "/src/utils/allExist.js";
 import styles from "./auth-input.module.css";
 
 const AuthInput = ({
@@ -8,7 +8,7 @@ const AuthInput = ({
     onChange,
 }) => {
 
-    if(!doExist(value, onChange)) {
+    if(!allExist(value, onChange)) {
         return <></>
     }
 

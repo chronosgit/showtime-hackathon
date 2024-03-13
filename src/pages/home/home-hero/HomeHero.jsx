@@ -1,5 +1,3 @@
-import Button from "../../../components/ui/button/Button";
-import Center from "../../../components/layout/center/Center";
 import styles from "./home-hero.module.css";
 
 const HomeHero = () => {
@@ -16,16 +14,9 @@ const HomeHero = () => {
                 Оригинально. Весело. Атмосферно
             </p>
 
-            <Center>
-                <Button
-                    padding="1.25rem"
-                    fontWeight="500"
-                    borderRadius="2rem"
-                    bgColor="var(--clr-red)"
-                >
-                    Заказать мафию
-                </Button>
-            </Center>
+            <button className={styles.btn}>
+                Заказать мафию
+            </button>
         </section>
     );
 };
