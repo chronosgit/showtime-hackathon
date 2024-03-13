@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { TailSpin } from "react-loader-spinner";
-import Logo from "../../ui/logo/Logo";
 import Alert from "../../ui/alert/Alert";
 import AuthInput from "./auth-input/AuthInput";
 import AuthHeading from "./auth-heading/AuthHeading";
@@ -26,7 +25,7 @@ const Auth = ({
                 to="/"
                 className={styles.logo_wrapper}
             >
-                <Logo
+                <img
                     src="/src/assets/images/logo_black.jpg"
                     alt="tompson rifle with company name"
                     width="200"
