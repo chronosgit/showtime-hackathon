@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Logo from "../../ui/logo/Logo";
 import styles from "./header.module.css";
 import Search from "../../ui/search/Search";
 import BtnsSocial from "../btns-social/BtnsSocial";
@@ -11,7 +10,7 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <Link to="/">
-                <Logo 
+                <img 
                     src="/src/assets/images/logo_white.png"
                     alt="tompson rifle with showtime sign on it"
                     width="150" 

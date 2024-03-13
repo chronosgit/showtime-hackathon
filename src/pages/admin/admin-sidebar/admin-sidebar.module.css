@@ -1,0 +1,11 @@
+.sidebar {
+    width: 100%;
+    max-width: 15rem;
+    height: 100%;
+    padding-block: 0.5rem;
+    background-color: var(--clr-gray-dark);
+}
+
+.logo {
+    margin: 0 auto;
+}

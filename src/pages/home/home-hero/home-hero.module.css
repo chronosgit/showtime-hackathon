@@ -2,6 +2,11 @@
     padding: 12rem 0.5rem;
     min-height: 100vh;
     text-align: center;
+
+    background: url("/src/assets/images/home-hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .heading {

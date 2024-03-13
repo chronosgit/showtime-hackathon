@@ -5,6 +5,12 @@ const HeaderBtns = () => {
 
     return (
         <div className={styles.btns}>
+            <Link to="/admin">
+                <button className={styles.btn + " " + styles.btn_register}>
+                    Временный линк на админку
+                </button>
+            </Link>
+
             <Link to="/register">
                 <button className={styles.btn + " " + styles.btn_register}>
                     Регистрация

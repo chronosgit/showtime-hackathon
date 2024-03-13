@@ -1,0 +1,15 @@
+.page {
+    padding-block: 10rem;
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.link {
+    color: var(--clr-red);
+    text-decoration: none;
+    text-transform: uppercase;
+}
